@@ -19,4 +19,5 @@ spec:
         claimName: pipelinerun-pvc
     - name: dockerconfig-ws
       secret:
-        secretName: docker-reg-creds
+        # Skills Network already provides this registry credential in the lab.
+        secretName: icr
